@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Enter the project name: "; read name;
+mkdir $name;
+touch $name/build.gradle;
+mkdir $name/src;
+mkdir $name/src/main;
+mkdir $name/src/main/java;
+touch $name/src/main/java/app.java;
+mkdir $name/src/test;
+touch $name/src/test/test.java;
+mv $name ..;
+cd ..;
+atom .;
