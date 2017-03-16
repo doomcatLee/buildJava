@@ -8,7 +8,8 @@ mkdir $name/src/main;
 mkdir $name/src/main/java;
 touch $name/src/main/java/app.java;
 mkdir $name/src/test;
-touch $name/src/test/test.java;
+mkdir $name/src/test/java;
+touch $name/src/test/java/test.java
 mv $name ..;
 cd ..;
 atom .;
